@@ -1,37 +1,42 @@
 [
-  { "id": "1",
+  {
+    "id": "1",
     "url": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
     "title": "Rick Sanchez",
     "description": "Rick Sanchez",
     "date": "2017-11-04T18:48:46.250Z",
-    "rate": 0
+    "rate": "5"
   },
-  { "id": "2",
+  {
+    "id": "2",
     "url": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
     "title": "Morty Smith",
     "description": "Morty Smith",
     "date": "2017-11-04T18:48:46.250Z",
-    "rate": 0
+    "rate": "3"
   },
-  { "id": "3",
+  {
+    "id": "3",
     "url": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
     "title": "Summer Smith",
     "description": "Summer Smith",
     "date": "2017-11-04T18:48:46.250Z",
-    "rate": 0
+    "rate": "2"
   },
-  { "id": "4",
+  {
+    "id": "4",
     "url": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
     "title": "Beth Smith",
     "description": "Beth Smith",
     "date": "2017-11-04T18:48:46.250Z",
-    "rate": 0
+    "rate": "5"
   },
-  { "id": "5",
+  {
+    "id": "5",
     "url": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
     "title": "Jerry Smith",
     "description": "Jerry Smith",
     "date": "2017-11-04T18:48:46.250Z",
-    "rate": 0
+    "rate": "1"
   }
 ]

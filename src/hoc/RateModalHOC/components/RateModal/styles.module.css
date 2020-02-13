@@ -1,0 +1,9 @@
+.modal {
+  width: 400px;
+  outline: none;
+  text-align: center;
+  margin: 50px auto;
+  padding: 10px 0;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
