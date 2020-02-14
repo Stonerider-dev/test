@@ -1,47 +1,34 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import Proptypes from 'prop-types';
 import RateModal from './components/RateModal';
 
 const rateModalHOC = WrappedComponent => {
-  class RateModalHOC extends Component {
-    state = {
-      isOpen: false,
-      item: {}
+  const RateModalHOC = props => {
+    const { getItems } = props;
+    const [isOpen, setOpen] = useState(false);
+    const [item, setItem] = useState({});
+
+    const onOpenRateModal = i => {
+      setItem(i);
+      setOpen(true);
     };
 
-    onOpenRateModal(item) {
-      this.setState({
-        isOpen: true,
-        item
-      });
-    }
+    const closeModal = () => {
+      setOpen(false);
+    };
 
-    closeModal() {
-      this.setState({
-        isOpen: false
-      });
-    }
-
-    render() {
-      const { isOpen, item } = this.state;
-      const { getItems } = this.props;
-
-      return (
-        <>
-          <RateModal
-            isOpen={isOpen}
-            closeModal={() => this.closeModal()}
-            item={item}
-            getItems={getItems}
-          />
-          <WrappedComponent
-            onItemClick={i => this.onOpenRateModal(i)}
-            {...this.props}
-          />
-        </>
-      );
-    }
-  }
+    return (
+      <>
+        <RateModal
+          isOpen={isOpen}
+          closeModal={closeModal}
+          item={item}
+          getItems={getItems}
+        />
+        <WrappedComponent onItemClick={onOpenRateModal} {...props} />
+      </>
+    );
+  };
   RateModalHOC.propTypes = {
     getItems: Proptypes.func.isRequired
   };
