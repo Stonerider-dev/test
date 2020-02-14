@@ -3,7 +3,7 @@
     "id": "1",
     "url": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
     "title": "Rick Sanchez",
-    "description": "Rick Sanchez",
+    "description": "Male, Human, Earth (C-137)",
     "date": "2017-11-04T18:48:46.250Z",
     "rate": "2"
   },
@@ -11,32 +11,32 @@
     "id": "2",
     "url": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
     "title": "Morty Smith",
-    "description": "Morty Smith",
-    "date": "2017-11-04T18:48:46.250Z",
+    "description": "Male, Human, Earth (C-137)",
+    "date": "2017-11-05T18:39:26.428Z",
     "rate": "3"
   },
   {
     "id": "3",
     "url": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
     "title": "Summer Smith",
-    "description": "Summer Smith",
-    "date": "2017-11-04T18:48:46.250Z",
+    "description": "Female, Human, Earth (Replacement Dimension)",
+    "date": "2017-11-06T19:09:56.428Z",
     "rate": "2"
   },
   {
     "id": "4",
     "url": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
     "title": "Beth Smith",
-    "description": "Beth Smith",
-    "date": "2017-11-04T18:48:46.250Z",
+    "description": "Female, Human, Earth (Replacement Dimension)",
+    "date": "2017-11-07T19:22:43.665Z",
     "rate": "5"
   },
   {
     "id": "5",
     "url": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
     "title": "Jerry Smith",
-    "description": "Jerry Smith",
-    "date": "2017-11-04T18:48:46.250Z",
-    "rate": "1"
+    "description": "Male, Human, Earth (Replacement Dimension)",
+    "date": "2017-11-08T19:26:56.301Z",
+    "rate": "3"
   }
 ]
